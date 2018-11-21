@@ -26,7 +26,11 @@ Use the Kudu build server for the deployment
 
 ![](../.gitbook/assets/kudu.PNG)
 
-Add the repository and branch for the deployment. Ensure that you enter the most recent 'release' branch and not 'master' to deploy a stable version of the application. You can  find the API in the medicloudconnect GitHub account.
+Add the repository and branch for the deployment. 
+
+{% hint style="info" %}
+Ensure that you enter the most recent 'release' branch and not 'master' to deploy a stable version of the application. You can  find the API in the medicloudconnect GitHub account.
+{% endhint %}
 
 {% embed url="https://github.com/medicloudconnect" %}
 
