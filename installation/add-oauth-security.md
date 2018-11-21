@@ -25,7 +25,15 @@ Select the FHIR Server for access
 
 ![](../.gitbook/assets/aad_selectapi.PNG)
 
-Then select the permission as shown below
+Then select the permission as shown below. Click the 'done' icon when you are completed.
 
 ![](../.gitbook/assets/aad_selectpermission.PNG)
+
+###  Protect the web API with OAuth
+
+Open the web app, and click on the Application settings and add the following settings:
+
+
+
+
 
