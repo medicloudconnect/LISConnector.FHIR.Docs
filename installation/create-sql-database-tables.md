@@ -1,2 +1,2 @@
-# Create SQL Database Tables
+# Connect a Database
 
