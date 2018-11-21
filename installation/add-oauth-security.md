@@ -14,3 +14,18 @@ Create another App registration for the FHIR Client.
 
 ![](../.gitbook/assets/aad_fhirclient.PNG)
 
+###  Add a Required Permission for the FHIR Client to access the FHIR Server
+
+Open the FHIR Client application, and add a required permission by clicking the '+Add' icon.
+
+![](../.gitbook/assets/aad_req_permissions.PNG)
+
+  
+Select the FHIR Server for access
+
+![](../.gitbook/assets/aad_selectapi.PNG)
+
+Then select the permission as shown below
+
+![](../.gitbook/assets/aad_selectpermission.PNG)
+
