@@ -1,4 +1,4 @@
-# Install the Web API in Azure
+# Install the Web APIs in Azure
 
 The FHIR Server consists of a number of decoupled ASP.NET Core Web APIs following a micro-services paradigm. In this example, we will install the 'Patient Service' API in an Azure Web App. The other APIs will follow the same process. The APIs can be found in the medicloudconnect GitHub account.
 
