@@ -1,6 +1,8 @@
 # Install the Web API in Azure
 
-The FHIR Server consists of a number of decoupled ASP.NET Core Web APIs following a micro-services paradigm. In this example, we will install the 'Patient Service' API in a Azure Web App. The other APIs will follow the same process.
+The FHIR Server consists of a number of decoupled ASP.NET Core Web APIs following a micro-services paradigm. In this example, we will install the 'Patient Service' API in an Azure Web App. The other APIs will follow the same process. The APIs can be found in the medicloudconnect GitHub account.
+
+{% embed url="https://github.com/medicloudconnect" %}
 
 ### Create a Resource Group
 
@@ -24,7 +26,9 @@ Use the Kudu build server for the deployment
 
 ![](../.gitbook/assets/kudu.PNG)
 
-Add the repository and branch for the deployment. Ensure that you select the most recent release branch and not mater to deploy a stable version of the application.
+Add the repository and branch for the deployment. Ensure that you select the most recent release branch and not mater to deploy a stable version of the application. You can  find the APIs in the medicloudconnect GitHub account.
+
+{% embed url="https://github.com/medicloudconnect" %}
 
 ![](../.gitbook/assets/public_gitrepo.PNG)
 
