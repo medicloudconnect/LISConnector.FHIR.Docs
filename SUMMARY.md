@@ -5,6 +5,6 @@
 ## Installation
 
 * [Install the Web API in Azure](installation/install-the-web-api-in-azure.md)
-* [Connect a Database](installation/connect-a-database.md.md)
+* [Connect a Database](installation/connect-a-database.md)
 * [Add OAuth Security](installation/add-oauth-security.md)
 
