@@ -33,6 +33,9 @@ Then select the permission as shown below. Click the 'done' icon when you are co
 
 Open the web app, and click on the Application settings and add the following settings:
 
+![](../.gitbook/assets/aad_tenantid.PNG)
+
+  
 
 
 
