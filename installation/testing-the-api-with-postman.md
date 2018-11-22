@@ -39,5 +39,19 @@ Set the following authorization parameters in the body of your `POST` request
   
 When you send the POST request with Postman , you should get the Access Token in the response.
 
-![](../.gitbook/assets/pm_access_token.PNG)
+![](../.gitbook/assets/pm_access_token%20%281%29.PNG)
+
+### Making an Authorized Request to the API
+
+You will need to include the JWT bearer token in the header to make an authorized request to the API. Copy the JWT token.
+
+![](../.gitbook/assets/pm_jwt_copy.PNG)
+
+Paste the JWT token in the Authorization section under Access Token 
+
+![](../.gitbook/assets/pm_get_request.PNG)
+
+You can now try the APIs. The Swagger / Open API page will provide details on the APIs. You can read the documentation and construct your requests to the APIs.
+
+![](../.gitbook/assets/swagger.PNG)
 
