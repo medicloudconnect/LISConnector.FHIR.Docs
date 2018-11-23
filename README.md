@@ -4,9 +4,7 @@ This FHIR server consists of a number of loosely coupled ASP.NET Core Web APIs t
 
 You can quickly install a sample API in your Microsoft Azure account and review the Swagger / Open API documentation.
 
-<a href="https://azuredeploy.net/?repository=https://github.com/medicloudconnect/LISConnector.FHIR.PatientService">
-    <img src="http://azuredeploy.net/deploybutton.png"/>
-</a>
+ [![](http://azuredeploy.net/deploybutton.png)](https://azuredeploy.net/?repository=https://github.com/medicloudconnect/LISConnector.FHIR.PatientService)
 
 The APIs are optimized for hosting on Microsoft Azure. They are built with ASP.NET Core and are open source. The FHIR Sever is most applicable for the management and exchange of laboratory medical data.
 
