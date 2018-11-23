@@ -30,7 +30,7 @@ Then select the `Delegated Permission` as shown below. Click the 'done' icon whe
 
 ## Add a Client Secret
 
-In the Settings section of the **FHIR Client**, click on keys and add a `ClientSecret` key. Copy the key and paste it in a secured location to use later.
+In the `Settings` section of the **FHIR Client**, click on `keys` and add a `ClientSecret` key. Copy and paste the key's `Value` in a secured location for later use.
 
 ![](../.gitbook/assets/aad_clientsecret.PNG)
 

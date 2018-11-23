@@ -6,7 +6,7 @@ The FHIR Server consists of a number of decoupled ASP.NET Core Web APIs followin
 
 ## Create a Resource Group
 
-Create a `Resource group` for your FHIR Server APIs.
+In your Microsoft Azure account, create a `Resource group` for your FHIR Server APIs.
 
 ![](../.gitbook/assets/fhirrg.PNG)
 
@@ -26,10 +26,10 @@ Use the `Kudu build server` for the deployment
 
 ![](../.gitbook/assets/kudu.PNG)
 
-Enter the repository and branch for the deployment.
+Enter the repository URL and branch for the deployment.
 
 {% hint style="info" %}
-Ensure that you enter the most recent 'release' branch and not 'master' to deploy a stable version of the application. You can find the API in the `medicloudconnect` GitHub account.
+Ensure that you enter the most recent 'release' branch and not 'master' to deploy a stable version of the application. You can find the repository URLs for the APIs in the `medicloudconnect` GitHub account.
 {% endhint %}
 
 {% embed url="https://github.com/medicloudconnect" caption="" %}

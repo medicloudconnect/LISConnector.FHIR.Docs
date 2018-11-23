@@ -13,7 +13,7 @@ Before completing this section , you should have completed the previous section 
 
 You will need to get a `JWT` token to access the OAuth secured APIs. The token URL is in the format `https://login.microsoftonline.com/<TenantId>/oauth2/token`
 
-The `TenantId` is the `Directory ID` of your Azure Active Directory \(AAD\) that was used to secure the API. You will send a `POST` request to the token URL endpoint to get the JWT token.
+The `TenantId` is the `Directory ID` of your Azure Active Directory \(AAD\) that was used to secure the API as shown in the image below. You will send a `POST` request to the token URL endpoint to get the JWT token.
 
 ![](../.gitbook/assets/aad_tenantid.PNG)
 
@@ -28,7 +28,7 @@ Set the following authorization parameters in the body of your `POST` request
 
 ![](../.gitbook/assets/pm_clientid.PNG)
 
-`client_secret` : This is the Client Secret of the **FHIR Client**
+`client_secret` : This is the `Value` of the Client Secret key of the **FHIR Client**
 
 ![](../.gitbook/assets/aad_clientsecret.PNG)
 

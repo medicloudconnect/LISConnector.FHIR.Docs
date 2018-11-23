@@ -1,6 +1,6 @@
 # Connect a Database
 
-You can use an existing `Azure SQL database` or create a new SQL database for the applications. An **install script** is provided to create the tables in the database. You will also need to configure the connection string in the web app to connect to the database. You can refer to the relevant Microsoft Azure documentation to learn more about the Azure SQL databases.
+You can use an existing `Azure SQL database` or create a new SQL database for the applications. An **install script** is provided to create the tables in the database. You will also need to configure the connection string in the Web App to connect to the database. You can refer to the relevant Microsoft Azure documentation to learn more about the Azure SQL databases.
 
 ### Create the database tables
 
@@ -8,7 +8,7 @@ Open your Azure SQL database, and click on the `Query editor`, enter your creden
 
 ![](../.gitbook/assets/query_editor.PNG)
 
-You will get the sql scripts in a project called `LISConnectorMigrationsProduction` in the solution. All the API solutions will contain a project with the same name.
+You will get the sql scripts on Git Hub in the relevant API solution in a project called `LISConnectorMigrationsProduction` in the solution. All the API solutions will contain a project with the same name.
 
 ![](../.gitbook/assets/sqlscript_project-1.PNG)
 
@@ -34,7 +34,7 @@ Open the database in the portal and click on `Connection strings`, then copy the
 
 ![](../.gitbook/assets/dbconnstr.PNG)
 
-Open the web app and click on the `Application settings`, create a settings named: `ConnectionStrings:Database` , and set it value to the connection string you acquired in the last step.
+Open the Web App and click on the `Application settings`, create a settings named: `ConnectionStrings:Database` , and set it value to the connection string you acquired in the last step.
 
 ![](../.gitbook/assets/webapp_dbconnstr.PNG)
 
